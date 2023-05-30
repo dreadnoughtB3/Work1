@@ -19,7 +19,7 @@ description = '''テスト用botです'''
 
 #スプレッドシート関連
 scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
-json = 'strl-380010-d9b3efdea4a1.json'
+json = 'json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(json, scope)
 gc = gspread.authorize(credentials)
 SPREADSHEET_KEY = '1vXe0TvwhgoOypM4xGF-fkQPYSNaLwTJVN06LmonCfoA'
@@ -991,4 +991,4 @@ async def on_message(message):
         pass
     await webhook.delete()
 
-bot.run('MTA3MjEwODcxNDAxNTg3MTAzNw.G6Tqbr.OQkLB7Gsm7VOohETEzBKGNq7OdmRDfaoTVfJmY')
+bot.run('TOKEN')
