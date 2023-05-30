@@ -365,4 +365,4 @@ async def escape(ctx):
 #    deleted = await channel.purge(limit=1000,check = is_me,bulk=False)
 #    await channel.send(f'Deleted {len(deleted)} message(s)')
 
-bot.run("MTA3MjEwODcxNDAxNTg3MTAzNw.G6Tqbr.OQkLB7Gsm7VOohETEzBKGNq7OdmRDfaoTVfJmY")
+bot.run(")
